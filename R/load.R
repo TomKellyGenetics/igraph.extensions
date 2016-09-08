@@ -1,5 +1,7 @@
 .onAttach <- function(...) {
 
+  options(warn = -1)
+
   if(!require(package = "igraph", quietly = TRUE)){
     if(!require("igraph")){
       install.packages("igraph")
@@ -22,6 +24,7 @@
 
   packageStartupMessage(paste0(c("Loading igraph", paste0("Loading igraph.extensions: ", github_packages, collapse = "\n")), collapse = "\n"))
 
+  options(warn = 0)
 
   # needed <- load[!is_attached(load)]
 
