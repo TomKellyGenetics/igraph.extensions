@@ -52,6 +52,11 @@ However, more conveniently, all required packages can be loaded together with `l
 
 ``` r
 library("igraph.extensions")
+#> Loading igraph
+#> Loading igraph.extensions: plot.igraph
+#> Loading igraph.extensions: info.centrality
+#> Loading igraph.extensions: pathway.structure.permutation
+#> Loading igraph.extensions: graphsim
 ```
 
 Note that only particular functions are imported from `matrixcalc` to avoid conflicts.
