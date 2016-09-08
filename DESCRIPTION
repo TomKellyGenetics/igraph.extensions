@@ -1,0 +1,24 @@
+Package: igraph.extensions
+Title: Easily install and load the igraph package and extensions
+Type: Package
+Version: 0.1.0.9001
+Authors@R: person("Tom", "Kelly", , "tom.kelly@postgrad.otago.ac.nz", role = c("aut", "cre"))
+Description: The igraph.extensions are a set of packages that add additional
+    functionality to igraph R package. This metapackage makes it convenient to
+    install and load the set of package and their dependencies in a single command.
+Imports:
+    devtools,
+    igraph,
+    dplyr,
+    purrr,
+    tibble
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
+URL: https://github.com/TomKellyGenetics/igraph.extensions
+BugReports: https://github.com/TomKellyGenetics/igrph.extensions/issues
+Suggests:
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
