@@ -1,7 +1,7 @@
 igraph.extensions
 =========
 
-The igraph.extensions are a set of packages that add additional functionality to igraph R package. This metapackage makes it convenient to install and load the set of packages and their dependencies in a single command.
+The igraph.extensions are a set of packages that add additional functionality to the igraph R package. This metapackage makes it convenient to install and load the set of packages and their dependencies in a single command.
 
 See the relevant documentation and vignettes for the extensions or the http://igraph.org/r/doc/ website for the original igraph package.
 
