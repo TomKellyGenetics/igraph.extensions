@@ -52,6 +52,16 @@ However, more conveniently, all required packages can be loaded together with `l
 
 ``` r
 library("igraph.extensions")
+#> Attaching package: ‘igraph’
+#> 
+#> The following objects are masked from ‘package:stats’:
+#> 
+#>     decompose, spectrum
+#> 
+#> The following object is masked from ‘package:base’:
+#> 
+#>     union
+#> 
 #> Loading igraph
 #> Loading igraph.extensions: plot.igraph
 #> Loading igraph.extensions: info.centrality
