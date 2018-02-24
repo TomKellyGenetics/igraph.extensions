@@ -1,3 +1,6 @@
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/igraph.extensions)](https://cran.r-project.org/package=igraph.extensions)
+[![Build Status](https://travis-ci.org/TomKellyGenetics/igraph.extensions.svg?branch=master)](https://travis-ci.org/TomKellyGenetics/igraph.extensions)
+
 igraph.extensions
 =========
 
