@@ -4,3 +4,13 @@ language: R
 sudo: false
 language: R
 cache: packages
+
+# enable remotes
+r_github_packages:
+- TomKellyGenetics/plot.igraph
+- TomKellyGenetics/info.centrality
+- TomKellyGenetics/graphsim
+- TomKellyGenetics/pathway.structure.permutation
+
+USE_RTOOLS: true
+
