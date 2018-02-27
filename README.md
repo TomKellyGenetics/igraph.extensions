@@ -1,6 +1,6 @@
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/igraph.extensions)](https://cran.r-project.org/package=igraph.extensions)
 [![Travis-CI Build Status](https://travis-ci.org/TomKellyGenetics/igraph.extensions.svg?branch=master)](https://travis-ci.org/TomKellyGenetics/igraph.extensions)
-[[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/TomKellyGenetics/igraph.extensions?branch=master&svg=true)](https://ci.appveyor.com/project/TomKellyGenetics/igraph.extensions)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/TomKellyGenetics/igraph.extensions?branch=master&svg=true)](https://ci.appveyor.com/project/TomKellyGenetics/igraph.extensions)
 
 igraph.extensions
 =========
