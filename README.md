@@ -11,7 +11,7 @@ See the relevant documentation and vignettes for the extensions or [the igraph p
 Installation
 ------------
 
-You can install these pacakges from github with:
+You can install these packages from github with:
 
 ``` r
 # install.packages("devtools")
