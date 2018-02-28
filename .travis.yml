@@ -12,5 +12,5 @@ r_github_packages:
 - TomKellyGenetics/graphsim
 - TomKellyGenetics/pathway.structure.permutation
 
-USE_RTOOLS: true
-
+environment:
+  USE_RTOOLS: true
