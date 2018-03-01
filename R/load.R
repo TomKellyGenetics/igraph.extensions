@@ -1,22 +1,15 @@
+#' @import devtools
+#' @import igraph
+#' @importFrom utils install.packages
+
 .onAttach <- function(...) {
 
   options(warn = -1)
-
-  if(!require(package = "igraph", quietly = TRUE)){
-    if(!require("igraph")){
-      install.packages("igraph")
-    }
-    library("igraph")
-  }
 
   github_packages <- c("plot.igraph", "info.centrality", "pathway.structure.permutation", "graphsim")
 
   for(package in github_packages){
     if(!require(package = paste(package), quietly = TRUE)){
-      if(!require("devtools")){
-        install.packages("devtools")
-      }
-      library("devtools")
       devtools::install_github(paste0("TomKellyGenetics/", package), quiet = TRUE)
     }
     library(package = as.character(package), quietly = TRUE, character.only = T)
