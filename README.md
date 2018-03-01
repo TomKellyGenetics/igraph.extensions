@@ -2,8 +2,10 @@
 [![Travis-CI Build Status](https://travis-ci.org/TomKellyGenetics/igraph.extensions.svg?branch=master)](https://travis-ci.org/TomKellyGenetics/igraph.extensions)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/TomKellyGenetics/igraph.extensions?branch=master&svg=true)](https://ci.appveyor.com/project/TomKellyGenetics/igraph.extensions)
 
-igraph.extensions
+igraph.extensions metapackage
 =========
+
+### Easily install and load the igraph package and extensions
 
 The igraph.extensions are a set of packages that add additional functionality to the igraph R package. This metapackage makes it convenient to install and load the set of packages and their dependencies in a single command.
 
