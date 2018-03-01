@@ -8,9 +8,7 @@
   github_packages <- c("plot.igraph", "info.centrality", "pathway.structure.permutation", "graphsim")
 
   for(package in github_packages){
-    if(!require(package = paste(package), quietly = TRUE)){
       devtools::install_github(paste0("TomKellyGenetics/", package), quiet = TRUE)
-    }
   }
 
   packageStartupMessage(paste0(c("Loading igraph", paste0("Loading igraph.extensions: ", github_packages, collapse = "\n")), collapse = "\n"))
