@@ -1,7 +1,6 @@
 #' @import devtools
 #' @import igraph
 #' @importFrom utils install.packages
-
 .onAttach <- function(...) {
 
   options(warn = -1)
@@ -12,7 +11,6 @@
     if(!require(package = paste(package), quietly = TRUE)){
       devtools::install_github(paste0("TomKellyGenetics/", package), quiet = TRUE)
     }
-    library(package = as.character(package), quietly = TRUE, character.only = T)
   }
 
   packageStartupMessage(paste0(c("Loading igraph", paste0("Loading igraph.extensions: ", github_packages, collapse = "\n")), collapse = "\n"))

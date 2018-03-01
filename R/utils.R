@@ -1,3 +1,5 @@
+##" @importFrom utils packageDescription stack
+
 bullets <- function(...) {
   message(paste0(" * ", ..., collapse = "\n"))
 }
