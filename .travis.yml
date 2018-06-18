@@ -14,3 +14,9 @@ r_github_packages:
 
 environment:
   USE_RTOOLS: true
+
+r_packages:
+  - covr
+
+after_success:
+  - Rscript -e 'library(covr); codecov()'
