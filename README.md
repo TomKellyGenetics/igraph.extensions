@@ -2,6 +2,7 @@
 [![Travis-CI Build Status](https://travis-ci.org/TomKellyGenetics/igraph.extensions.svg?branch=master)](https://travis-ci.org/TomKellyGenetics/igraph.extensions)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/TomKellyGenetics/igraph.extensions?branch=master&svg=true)](https://ci.appveyor.com/project/TomKellyGenetics/igraph.extensions)
 [![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](http://www.repostatus.org/badges/latest/inactive.svg)](http://www.repostatus.org/#inactive)
+[![codecov](https://codecov.io/gh/TomKellyGenetics/igraph.extensions/branch/master/graph/badge.svg)](https://codecov.io/gh/TomKellyGenetics/igraph.extensions)
 
 igraph.extensions
 =========
